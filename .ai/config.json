@@ -1,0 +1,33 @@
+{
+  "$schema": "./config.schema.json",
+  "project": {
+    "name": "site-conselho-tutelar",
+    "description": "Prototipo academico de site institucional informativo sobre Conselho Tutelar para orientar familias e responsaveis, desenvolvido junto ao CRAS e pensado para posterior replicacao em WordPress.",
+    "language": "HTML, CSS, JavaScript",
+    "runtime": "Browser",
+    "framework": "None",
+    "packageManager": "None",
+    "testFramework": "Manual validation checklist",
+    "lintTool": "Manual review"
+  },
+  "architecture": {
+    "pattern": "Static multipage website with shared assets",
+    "database": "None",
+    "auth": "None"
+  },
+  "devEnvironment": {
+    "containerization": "Not configured",
+    "reloadStrategy": "Not applicable"
+  },
+  "links": {
+    "docs": "README.md",
+    "api": "Not applicable",
+    "dbSchema": "Not applicable"
+  },
+  "standards": {
+    "languageConventions": "Semantic HTML, reusable CSS classes, minimal JavaScript, kebab-case file names, Portuguese content with clear and welcoming tone.",
+    "formatting": "Manual consistent indentation and readable HTML/CSS organization.",
+    "testing": "Manual browser validation for navigation, links, responsive layout, basic accessibility, and placeholder review.",
+    "notes": "Keep the prototype simple and easy to reproduce as WordPress pages/blocks. Do not invent official contact data; use placeholders until CRAS/municipality confirms details."
+  }
+}
